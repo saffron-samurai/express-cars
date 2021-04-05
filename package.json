@@ -1,0 +1,27 @@
+{
+    "name": "express-cars",
+    "version": "1.0.0",
+    "description": "This API serves test data about cars",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./src/index.js",
+        "start": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saffron-samurai/express-cars.git"
+    },
+    "author": "saffron-samurai",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/saffron-samurai/express-cars/issues"
+    },
+    "homepage": "https://github.com/saffron-samurai/express-cars#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
